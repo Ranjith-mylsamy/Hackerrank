@@ -5,7 +5,7 @@ using namespace std;
 int main() 
 {
  int a,b,i;
-    char *str[] = {"one","two","three","four","five","six","seven","eight","nine","even","odd"};
+    char const *str[] = {"one","two","three","four","five","six","seven","eight","nine","even","odd"};
     cin>>a;
     cin>>b;
     for(i=a;i<=b;i++)
