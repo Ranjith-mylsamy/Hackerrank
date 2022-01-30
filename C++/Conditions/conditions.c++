@@ -12,7 +12,7 @@ else if(n==2){
 }
 else if(n==3){
     cout<<"three";
-}cd ..
+}
 else if(n==4){
     cout<<"four";
 }
