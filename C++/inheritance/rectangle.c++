@@ -9,12 +9,27 @@ using namespace std;
      public:
      int rect_width;
      int rect_height;
+     void display()
+     {
+         cout<<rect_width<<" "<<rect_height<<"\n";
+     }
  };
- class RectangleArea
+ class RectangleArea : public Rectangle
  {
-   public:
-   int area;  
+     public:
+     int area;
+     void read_input()
+     {
+         cin>>rect_width;
+         cin>>rect_height;
+     }
+     void display()
+     {
+         area=rect_width*rect_height;
+         cout<<area<<"\n";
+     }
  };
+
 int main()
 {
     /*
